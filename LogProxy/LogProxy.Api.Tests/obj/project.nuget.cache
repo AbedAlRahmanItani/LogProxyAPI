@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h4NlHv04wwIUH3YKgVpVy0ttEZH25n6qyG30KjZDvkQsw6OuBapDoIy69LQDCL7XY9dEE3ljki4RNT06WZT0Bw==",
+  "dgSpecHash": "njHApAgbEYBYsH+vHfgi5hns6NBIOxierbe7RsPw9HdkgdWBOf3tAufzH5dJvaFYgy9b9u+8PaEFvhJ7So91rQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Api.Tests\\LogProxy.Api.Tests.csproj",
   "expectedPackageFiles": [

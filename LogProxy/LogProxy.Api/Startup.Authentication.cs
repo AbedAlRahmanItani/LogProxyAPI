@@ -28,11 +28,11 @@ namespace LogProxy.Api
             });
 
             // configure strongly typed settings objects
-            var appSettingsSection = configuration.GetSection("AuthenticationOptions");
-            serviceCollection.Configure<AuthenticationOptions>(appSettingsSection);
+            var authOptions = configuration.GetSection("AuthenticationOptions");
+            serviceCollection.Configure<AuthenticationOptions>(authOptions);
 
             // configure jwt authentication
-            var appSettings = appSettingsSection.Get<AuthenticationOptions>();
+            var appSettings = authOptions.Get<AuthenticationOptions>();
             var key = Encoding.ASCII.GetBytes(appSettings.JwtSecret);
             serviceCollection.AddAuthentication(x =>
             {

@@ -3239,7 +3239,8 @@
           "FluentValidation": "9.5.0",
           "LogProxy.Domain": "1.0.0",
           "MediatR": "9.0.0",
-          "Microsoft.Extensions.Configuration.Json": "3.1.12"
+          "Microsoft.Extensions.Configuration.Json": "3.1.12",
+          "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
           "bin/placeholder/LogProxy.Application.dll": {}

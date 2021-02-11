@@ -12,7 +12,8 @@
           "FluentValidation": "9.5.0",
           "LogProxy.Domain": "1.0.0",
           "MediatR": "9.0.0",
-          "Microsoft.Extensions.Configuration.Json": "3.1.12"
+          "Microsoft.Extensions.Configuration.Json": "3.1.12",
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "LogProxy.Application.dll": {}
@@ -334,6 +335,14 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
       "System.Collections.Immutable/1.7.1": {
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {
@@ -584,6 +593,13 @@
       "sha512": "sha512-QjEKb7QWbk44/t05BKlYaHP1sX2jOW9MypKVeMikX6932J34AioVo9heppJ8XAUpBLL15iOiyncSLWgHE32xMg==",
       "path": "microsoft.extensions.primitives/3.1.12",
       "hashPath": "microsoft.extensions.primitives.3.1.12.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "System.Collections.Immutable/1.7.1": {
       "type": "package",

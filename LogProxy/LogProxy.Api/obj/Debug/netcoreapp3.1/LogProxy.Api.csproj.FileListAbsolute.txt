@@ -88,3 +88,4 @@ D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.I
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Infrastructure.pdb
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Persistence.pdb
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Application.pdb
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\appsettings.Docker.json
