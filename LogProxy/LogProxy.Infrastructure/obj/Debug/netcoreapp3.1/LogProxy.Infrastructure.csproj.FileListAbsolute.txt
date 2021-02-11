@@ -1,0 +1,16 @@
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Infrastructure.deps.json
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Infrastructure.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Infrastructure.pdb
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.csprojAssemblyReference.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.AssemblyInfo.cs
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.pdb
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Application.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Domain.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Domain.pdb
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Persistence.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Application.pdb
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Persistence.pdb
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.csproj.CopyComplete

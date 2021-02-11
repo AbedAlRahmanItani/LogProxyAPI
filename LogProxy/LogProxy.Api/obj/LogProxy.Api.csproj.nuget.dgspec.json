@@ -26,7 +26,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj"
+              },
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Infrastructure\\LogProxy.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Infrastructure\\LogProxy.Infrastructure.csproj"
+              },
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,9 +48,31 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -57,6 +89,299 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj",
+        "projectName": "LogProxy.Application",
+        "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj",
+        "packagesPath": "C:\\Users\\abeda\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj",
+        "projectName": "LogProxy.Domain",
+        "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj",
+        "packagesPath": "C:\\Users\\abeda\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Infrastructure\\LogProxy.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Infrastructure\\LogProxy.Infrastructure.csproj",
+        "projectName": "LogProxy.Infrastructure",
+        "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Infrastructure\\LogProxy.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\abeda\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj"
+              },
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj"
+              },
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj",
+        "projectName": "LogProxy.Persistence",
+        "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj",
+        "packagesPath": "C:\\Users\\abeda\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj"
+              },
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

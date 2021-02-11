@@ -1,11 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
+using LogProxy.Application.Constants;
+using LogProxy.Application.Extensions;
+using LogProxy.Persistence.Context;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace LogProxy.Api
 {
@@ -13,14 +15,29 @@ namespace LogProxy.Api
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var dbContextArgs = new string[]
+            {
+                ConfigurationNames.ConnectionStringName
+            };
+
+            var environmentName = Environment.GetEnvironmentVariable(ConfigurationNames.AspNetCoreEnvironment);
+            var configurationBuilder = ConfigurationBuilderExtensions.GetConfigurationBuilder(environmentName);
+            var configuration = configurationBuilder.Build();
+            
+            var factory = new ApplicationDbContextFactory(configuration);
+            using (var dbContext = factory.CreateDbContext(dbContextArgs))
+            {
+                dbContext.Database.Migrate();
+            }
+
+            CreateWebHostBuilder(args, configuration).Build().Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args, IConfiguration configuration) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseConfiguration(configuration)
+                .UseIISIntegration()
+                .UseStartup<Startup>();
     }
 }
