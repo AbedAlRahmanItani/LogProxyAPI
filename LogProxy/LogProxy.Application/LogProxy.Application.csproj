@@ -16,8 +16,4 @@
     <ProjectReference Include="..\LogProxy.Domain\LogProxy.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CQRS\Messages\Commands\" />
-  </ItemGroup>
-
 </Project>

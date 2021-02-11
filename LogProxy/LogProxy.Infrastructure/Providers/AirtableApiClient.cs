@@ -1,7 +1,6 @@
-﻿using LogProxy.Application;
-using LogProxy.Application.Interfaces.Providers;
-using LogProxy.Application.Interfaces.Providers.Models;
+﻿using LogProxy.Application.Interfaces.Providers;
 using LogProxy.Application.Options;
+using LogProxy.Application.Providers.Models;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;
@@ -33,14 +32,19 @@ namespace LogProxy.Infrastructure.Providers
         }
 
 
-        public async Task<GetMessagesResponse> GetMessagesAsync(GetMessagesRequest request, CancellationToken cancellationToken)
+        public async Task<MessagesResponse> GetMessagesAsync(GetMessagesRequest request, CancellationToken cancellationToken)
         {
             var parameters = new Dictionary<string, string>
             {
                 { "maxRecords" , request.MaxRecords.ToString() },
                 { "view" , request.View }
             };
-            return await QueryAsync<GetMessagesResponse>(HttpMethod.Get, $"/Messages", cancellationToken, parameters).ConfigureAwait(false);
+            return await QueryAsync<MessagesResponse>(HttpMethod.Get, $"/Messages", cancellationToken, parameters).ConfigureAwait(false);
+        }
+
+        public async Task<MessagesResponse> CreateMessagesAsync(PostMessagesRequest request, CancellationToken cancellationToken)
+        {
+            return await QueryAsync<MessagesResponse>(HttpMethod.Post, $"/Messages", cancellationToken, body: request).ConfigureAwait(false);
         }
 
         private async Task<T> QueryAsync<T>(HttpMethod httpMethod, string function, CancellationToken cancellationToken, Dictionary<string, string> parameters = null, object body = null)

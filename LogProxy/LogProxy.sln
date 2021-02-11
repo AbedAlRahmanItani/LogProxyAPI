@@ -13,17 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{511661EE-A2A7-4267-A641-DA3E88804620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Application", "LogProxy.Application\LogProxy.Application.csproj", "{2ECF4330-2492-4AB2-A24E-2DCA2DF631AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogProxy.Application", "LogProxy.Application\LogProxy.Application.csproj", "{2ECF4330-2492-4AB2-A24E-2DCA2DF631AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Domain", "LogProxy.Domain\LogProxy.Domain.csproj", "{3E415C81-BBF5-4045-9233-F831FBCA621B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogProxy.Domain", "LogProxy.Domain\LogProxy.Domain.csproj", "{3E415C81-BBF5-4045-9233-F831FBCA621B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Infrastructure", "LogProxy.Infrastructure\LogProxy.Infrastructure.csproj", "{CE5AA448-AD94-4132-95AD-E221EE2E6793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogProxy.Infrastructure", "LogProxy.Infrastructure\LogProxy.Infrastructure.csproj", "{CE5AA448-AD94-4132-95AD-E221EE2E6793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Persistence", "LogProxy.Persistence\LogProxy.Persistence.csproj", "{6BC5181B-C8D8-4D99-B572-326BB26B6881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogProxy.Persistence", "LogProxy.Persistence\LogProxy.Persistence.csproj", "{6BC5181B-C8D8-4D99-B572-326BB26B6881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Api", "LogProxy.Api\LogProxy.Api.csproj", "{2780D919-A452-425D-A9E8-A44E581780EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogProxy.Api", "LogProxy.Api\LogProxy.Api.csproj", "{2780D919-A452-425D-A9E8-A44E581780EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Api.Tests", "LogProxy.Api.Tests\LogProxy.Api.Tests.csproj", "{C530CF10-B0A3-4264-9CB2-5B794F1BE26B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogProxy.Api.Tests", "LogProxy.Api.Tests\LogProxy.Api.Tests.csproj", "{C530CF10-B0A3-4264-9CB2-5B794F1BE26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Application.Tests", "LogProxy.Application.Tests\LogProxy.Application.Tests.csproj", "{2C542F08-0C94-4434-9EB7-33BF9D7D1984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProxy.Domain.Tests", "LogProxy.Domain.Tests\LogProxy.Domain.Tests.csproj", "{E45BDA85-A15B-4F64-AA62-F074CBF84E1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,14 @@ Global
 		{C530CF10-B0A3-4264-9CB2-5B794F1BE26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C530CF10-B0A3-4264-9CB2-5B794F1BE26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C530CF10-B0A3-4264-9CB2-5B794F1BE26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C542F08-0C94-4434-9EB7-33BF9D7D1984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C542F08-0C94-4434-9EB7-33BF9D7D1984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C542F08-0C94-4434-9EB7-33BF9D7D1984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C542F08-0C94-4434-9EB7-33BF9D7D1984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45BDA85-A15B-4F64-AA62-F074CBF84E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45BDA85-A15B-4F64-AA62-F074CBF84E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45BDA85-A15B-4F64-AA62-F074CBF84E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45BDA85-A15B-4F64-AA62-F074CBF84E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +81,8 @@ Global
 		{6BC5181B-C8D8-4D99-B572-326BB26B6881} = {B75D1ECD-CBD2-4535-9F76-6825F25CA75E}
 		{2780D919-A452-425D-A9E8-A44E581780EF} = {511661EE-A2A7-4267-A641-DA3E88804620}
 		{C530CF10-B0A3-4264-9CB2-5B794F1BE26B} = {47270CFE-311F-4E9C-9EAF-518341543A95}
+		{2C542F08-0C94-4434-9EB7-33BF9D7D1984} = {47270CFE-311F-4E9C-9EAF-518341543A95}
+		{E45BDA85-A15B-4F64-AA62-F074CBF84E1D} = {47270CFE-311F-4E9C-9EAF-518341543A95}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7657C33F-0EAD-4C57-9D59-F67C08DBF5D5}

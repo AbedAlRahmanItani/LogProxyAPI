@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using LogProxy.Api.Controllers.Base;
+using LogProxy.Application.CQRS.Messages.Commands;
 using LogProxy.Application.CQRS.Messages.Models;
 using LogProxy.Application.CQRS.Messages.Queries;
 using Microsoft.AspNetCore.Authorization;
@@ -17,11 +18,21 @@ namespace LogProxy.Api.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            return Ok(await Mediator.Send(new GetMessagesQuery 
-            { 
+            return Ok(await Mediator.Send(new GetMessagesQuery
+            {
                 MaxRecords = maxRecords,
                 View = view
             }));
+        }
+
+        [AllowAnonymous]
+        [HttpPost("")]
+        public async Task<ActionResult<IEnumerable<MessagesViewModel>>> Post([FromBody] CreateMessagesCommand command)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            return Ok(await Mediator.Send(command));
         }
     }
 }

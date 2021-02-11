@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using LogProxy.Application.CQRS.Messages.Models;
 using LogProxy.Application.Interfaces.Providers;
+using LogProxy.Application.Providers.Models;
 using MediatR;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace LogProxy.Application.CQRS.Messages.Queries
         public async Task<IEnumerable<MessagesViewModel>> Handle(GetMessagesQuery request, CancellationToken cancellationToken)
         {
             var response = await _airtableApiClient.GetMessagesAsync(
-                new Interfaces.Providers.Models.GetMessagesRequest
+                new GetMessagesRequest
                 {
                     MaxRecords = request.MaxRecords,
                     View = request.View
