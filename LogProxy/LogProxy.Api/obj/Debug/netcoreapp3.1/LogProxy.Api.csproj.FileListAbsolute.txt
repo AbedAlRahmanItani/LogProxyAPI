@@ -1,0 +1,9 @@
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.csprojAssemblyReference.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.AssemblyInfoInputs.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.AssemblyInfo.cs
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.RazorTargetAssemblyInfo.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\staticwebassets\LogProxy.Api.StaticWebAssets.Manifest.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\staticwebassets\LogProxy.Api.StaticWebAssets.xml

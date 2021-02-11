@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1XsROMfS66ElRyVBibBFQU2zdRq2e2E6c9Isl27TZH7aqvUEnBZIrKWlELvncMUyLxcXwwTITDwnKh/lH1lzdQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Api\\LogProxy.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
