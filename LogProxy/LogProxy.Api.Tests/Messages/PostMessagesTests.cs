@@ -28,17 +28,17 @@ namespace LogProxy.Api.Tests.Messages
                 {
                     new MessagesViewModel
                     {
-                        Id = 2,
+                        Id = "1",
                         ReceivedAt = DateTime.UtcNow,
-                        Title = "Title 2",
-                        Text = "Text 2"
+                        Title = "Title 1.1",
+                        Text = "Text 1.1"
                     },
                     new MessagesViewModel
                     {
-                        Id = 3,
+                        Id = "1",
                         ReceivedAt = DateTime.UtcNow,
-                        Title = "Title 3",
-                        Text = "Text 3"
+                        Title = "Title 1.2",
+                        Text = "Text 1.2"
                     }
                 }
             };
