@@ -1,4 +1,6 @@
 ﻿using LogProxy.Api.Tests.Common;
+using LogProxy.Application.CQRS.Auth.Models;
+using LogProxy.Application.CQRS.Auth.Queries;
 using LogProxy.Application.CQRS.Messages.Commands;
 using LogProxy.Application.CQRS.Messages.Models;
 using System;
@@ -22,6 +24,23 @@ namespace LogProxy.Api.Tests.Messages
         [Fact]
         public async Task GivenMessageRequest_WhenPost_ThenAPostReturnsThePostedMessages()
         {
+            var authQuery = new GetAuthenticationTokenQuery
+            {
+                UserName = "abed.itani",
+                Password = "123456"
+            };
+
+            AuthenticationToken authenticationToken;
+            using (var postAuthResponse = await _client.PostAsJsonAsync($"/api/Auth", authQuery))
+            {
+                Assert.True(postAuthResponse.IsSuccessStatusCode);
+                authenticationToken = await postAuthResponse.Content.ReadAsAsync<AuthenticationToken>();
+
+                Assert.NotEmpty(authenticationToken.Token);
+            }
+
+            _client.DefaultRequestHeaders.Add("Authorization", $"Bearer {authenticationToken.Token}");
+
             var command = new CreateMessagesCommand
             {
                 Messages = new List<MessagesViewModel>

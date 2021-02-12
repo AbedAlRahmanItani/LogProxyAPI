@@ -17,8 +17,6 @@ namespace LogProxy.Persistence.Context
         private static void SeedRoles(IServiceProvider serviceProvider)
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<ApplicationRole>>();
-            if (roleManager == null)
-                return;
 
             if (!roleManager.RoleExistsAsync(Roles.Anonymous).Result)
             {
@@ -33,8 +31,6 @@ namespace LogProxy.Persistence.Context
         private static void SeedUsers(IServiceProvider serviceProvider)
         {
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-            if(userManager == null)
-                return;
 
             const string username = "abed.itani";
             if (userManager.FindByNameAsync(username).Result == null)

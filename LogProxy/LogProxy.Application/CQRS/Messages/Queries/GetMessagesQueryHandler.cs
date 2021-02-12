@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using LogProxy.Application.CQRS.Messages.Models;
 using LogProxy.Application.Interfaces.Providers;
-using LogProxy.Application.Providers.Models;
+using LogProxy.Application.Providers.Airtable.Models;
 using MediatR;
 using System.Collections.Generic;
 using System.Linq;

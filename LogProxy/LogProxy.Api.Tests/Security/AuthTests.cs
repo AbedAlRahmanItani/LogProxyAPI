@@ -1,7 +1,7 @@
 ﻿using LogProxy.Api.Tests.Common;
 using LogProxy.Application.CQRS.Auth.Models;
 using LogProxy.Application.CQRS.Auth.Queries;
-using System;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;
@@ -43,15 +43,14 @@ namespace LogProxy.Api.Tests.Security
             var query = new GetAuthenticationTokenQuery
             {
                 UserName = "abed.itani.1",
-                Password = ""
+                Password = "123456"
             };
 
-            await Assert.ThrowsAsync<ApplicationException>(async () =>
+            using (var postAuthResponse = await _client.PostAsJsonAsync($"/api/Auth", query))
             {
-                using (var postAuthResponse = await _client.PostAsJsonAsync($"/api/Auth", query))
-                {
-                }
-            });
+                Assert.False(postAuthResponse.IsSuccessStatusCode);
+                Assert.Equal(HttpStatusCode.InternalServerError, postAuthResponse.StatusCode);
+            }
         }
 
         [Fact]
@@ -63,12 +62,11 @@ namespace LogProxy.Api.Tests.Security
                 Password = "123457"
             };
 
-            await Assert.ThrowsAsync<ApplicationException>(async () =>
+            using (var postAuthResponse = await _client.PostAsJsonAsync($"/api/Auth", query))
             {
-                using (var postAuthResponse = await _client.PostAsJsonAsync($"/api/Auth", query))
-                {
-                }
-            });
+                Assert.False(postAuthResponse.IsSuccessStatusCode);
+                Assert.Equal(HttpStatusCode.InternalServerError, postAuthResponse.StatusCode);
+            }
         }
     }
 }

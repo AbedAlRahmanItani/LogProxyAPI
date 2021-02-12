@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5/zwe+2oC5xNVAZr2FQgIp9zb8mof34rZsi0In8/7dE0FUE7A3ZdEMK0P3e96OgdYChDvnMen/gzCqWHpoXF0g==",
+  "dgSpecHash": "C/eELbqpl3k4EmozFZrOJ7CzpaE3nWGsIwfQ5ZZtCfVKUxFZNYe+vzDRuz3i4UpZq6tge+buUGVlWdSdqng9RA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.12\\microsoft.extensions.configuration.3.1.12.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.12\\microsoft.extensions.configuration.abstractions.3.1.12.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.12\\microsoft.extensions.configuration.binder.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\3.1.12\\microsoft.extensions.configuration.environmentvariables.3.1.12.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.12\\microsoft.extensions.configuration.fileextensions.3.1.12.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.12\\microsoft.extensions.configuration.json.3.1.12.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.12\\microsoft.extensions.dependencyinjection.3.1.12.nupkg.sha512",

@@ -25,4 +25,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENV ASPNETCORE_ENVIRONMENT=Docker
 RUN mv appsettings.Docker.json appsettings.json
-ENTRYPOINT ["dotnet", "LogProxy.Api.dll"]
+ENTRYPOINT ["dotnet", "LogProxy.Api.dll", "--environment=Docker"]

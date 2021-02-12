@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace LogProxy.Application.Providers.Models
+namespace LogProxy.Application.Providers.Airtable.Models
 {
     public class MessageField
     {

@@ -9,15 +9,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LogProxy.Api.Controllers
 {
+    [Authorize]
     public class MessagesController : BaseController
     {
-        [AllowAnonymous]
         [HttpGet("")]
         public async Task<ActionResult<IEnumerable<MessagesViewModel>>> Get(int maxRecords, string view)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             return Ok(await Mediator.Send(new GetMessagesQuery
             {
                 MaxRecords = maxRecords,
@@ -25,7 +22,6 @@ namespace LogProxy.Api.Controllers
             }));
         }
 
-        [AllowAnonymous]
         [HttpPost("")]
         public async Task<ActionResult<IEnumerable<MessagesViewModel>>> Post([FromBody] CreateMessagesCommand command)
         {

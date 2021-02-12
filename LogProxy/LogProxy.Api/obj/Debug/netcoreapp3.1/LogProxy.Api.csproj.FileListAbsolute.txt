@@ -56,9 +56,6 @@ D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\Newtonsoft
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Persistence.dll
-D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.csproj.CoreCompileInputs.cache
-D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.MvcApplicationPartsAssemblyInfo.cache
-D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -89,3 +86,9 @@ D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.I
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Persistence.pdb
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Application.pdb
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\appsettings.Docker.json
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.csproj.CoreCompileInputs.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll

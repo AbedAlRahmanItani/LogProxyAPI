@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using LogProxy.Application.Interfaces.Mapping;
-using LogProxy.Application.Providers.Models;
+using LogProxy.Application.Providers.Airtable.Models;
 using System;
 
 namespace LogProxy.Application.CQRS.Messages.Models

@@ -432,5 +432,7 @@ D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\LogP
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\LogProxy.Infrastructure.pdb
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\obj\Debug\netcoreapp3.1\LogProxy.Api.Tests.csproj.CoreCompileInputs.cache
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\appsettings.Docker.json
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\obj\Debug\netcoreapp3.1\LogProxy.Api.Tests.csproj.CoreCompileInputs.cache

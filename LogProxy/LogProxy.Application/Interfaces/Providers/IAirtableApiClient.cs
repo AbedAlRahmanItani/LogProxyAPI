@@ -1,4 +1,4 @@
-﻿using LogProxy.Application.Providers.Models;
+﻿using LogProxy.Application.Providers.Airtable.Models;
 using System.Threading;
 using System.Threading.Tasks;
 

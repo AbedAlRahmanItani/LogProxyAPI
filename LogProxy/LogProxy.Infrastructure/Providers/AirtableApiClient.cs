@@ -1,6 +1,6 @@
 ﻿using LogProxy.Application.Interfaces.Providers;
 using LogProxy.Application.Options;
-using LogProxy.Application.Providers.Models;
+using LogProxy.Application.Providers.Airtable.Models;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System;

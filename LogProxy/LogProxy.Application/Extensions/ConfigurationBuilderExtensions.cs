@@ -11,7 +11,8 @@ namespace LogProxy.Application.Extensions
 
             configurationBuilder = configurationBuilder.SetBasePath(basePath ?? AppDomain.CurrentDomain.BaseDirectory)
                    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                   .AddJsonFile($"appsettings.{environmentName}.json", optional: true);
+                   .AddJsonFile($"appsettings.{environmentName}.json", optional: true)
+                   .AddEnvironmentVariables();
 
             return configurationBuilder;
         }

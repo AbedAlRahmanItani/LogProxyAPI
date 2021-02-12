@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "njHApAgbEYBYsH+vHfgi5hns6NBIOxierbe7RsPw9HdkgdWBOf3tAufzH5dJvaFYgy9b9u+8PaEFvhJ7So91rQ==",
+  "dgSpecHash": "jjAT+ldM9F0KsaAZC4NXZaYvFVRUHU98vk9qux5lKB5ZOA8sfGMXJUQEzUOerk2V7ZLctyZb28iKWsPV2eNc/w==",
   "success": true,
   "projectFilePath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Api.Tests\\LogProxy.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abeda\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
-    "C:\\Users\\abeda\\.nuget\\packages\\fluentvalidation\\9.5.0\\fluentvalidation.9.5.0.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.1\\fluentvalidation.aspnetcore.9.5.1.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.1\\fluentvalidation.dependencyinjectionextensions.9.5.1.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\abeda\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

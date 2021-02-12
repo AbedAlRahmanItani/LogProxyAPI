@@ -8,11 +8,11 @@ namespace LogProxy.Application.CQRS.Auth.Queries
         {
             RuleFor(v => v.UserName)
                 .NotEmpty()
-                .MaximumLength(5);
+                .MinimumLength(5);
 
             RuleFor(v => v.Password)
                 .NotEmpty()
-                .MaximumLength(4);
+                .MinimumLength(4);
         }
     }
 }

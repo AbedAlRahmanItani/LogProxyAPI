@@ -257,6 +257,17 @@
           }
         }
       },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/3.1.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "assemblyVersion": "3.1.12.0",
+            "fileVersion": "3.100.1221.6909"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration.FileExtensions/3.1.12": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "3.1.12",
@@ -1092,6 +1103,7 @@
           "FluentValidation": "9.5.0",
           "LogProxy.Domain": "1.0.0",
           "MediatR": "9.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.1.12",
           "Microsoft.Extensions.Configuration.Json": "3.1.12",
           "Newtonsoft.Json": "12.0.3"
         },
@@ -1268,6 +1280,13 @@
       "sha512": "sha512-tso2dQMzmtALku0vMB6VuZpxDD6HYXqut+a8FdaU8XelnlR0aCi/LsK6Ej7VZbkKBqTQSgHAwyghbuKhk1sxog==",
       "path": "microsoft.extensions.configuration.binder/3.1.12",
       "hashPath": "microsoft.extensions.configuration.binder.3.1.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RL8I4lcRSp3DT74DOyg4FmJgFJTRpwRBq9x+Whv1PcoxXeSbGlIX/caM1a2QQ4jCkY+gexOKvwwn2UInFbbVdQ==",
+      "path": "microsoft.extensions.configuration.environmentvariables/3.1.12",
+      "hashPath": "microsoft.extensions.configuration.environmentvariables.3.1.12.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.FileExtensions/3.1.12": {
       "type": "package",
