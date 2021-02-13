@@ -2775,6 +2775,19 @@
           "LogProxy.Application.dll": {}
         }
       },
+      "LogProxy.Common/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.12",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "3.1.12",
+          "Microsoft.Extensions.Configuration.Json": "3.1.12"
+        },
+        "runtime": {
+          "LogProxy.Common.dll": {}
+        },
+        "compile": {
+          "LogProxy.Common.dll": {}
+        }
+      },
       "LogProxy.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.12"
@@ -2803,7 +2816,7 @@
       },
       "LogProxy.Persistence/1.0.0": {
         "dependencies": {
-          "LogProxy.Application": "1.0.0",
+          "LogProxy.Common": "1.0.0",
           "LogProxy.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.12",
           "Microsoft.EntityFrameworkCore.Relational": "3.1.12",
@@ -5790,6 +5803,11 @@
       "sha512": ""
     },
     "LogProxy.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogProxy.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

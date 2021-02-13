@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LogProxy.Application\LogProxy.Application.csproj" />
+    <ProjectReference Include="..\LogProxy.Common\LogProxy.Common.csproj" />
     <ProjectReference Include="..\LogProxy.Domain\LogProxy.Domain.csproj" />
   </ItemGroup>
 

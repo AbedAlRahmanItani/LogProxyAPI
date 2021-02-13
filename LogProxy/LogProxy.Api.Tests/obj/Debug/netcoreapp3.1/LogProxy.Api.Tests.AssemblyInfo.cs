@@ -13,6 +13,7 @@ using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("LogProxy.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Api", "LogProxy.Api.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("LogProxy.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application", "LogProxy.Application.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("LogProxy.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common", "LogProxy.Common.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("LogProxy.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain", "LogProxy.Domain.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("LogProxy.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Infrastructure", "LogProxy.Infrastructure.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("LogProxy.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence", "LogProxy.Persistence.csproj", "0")]

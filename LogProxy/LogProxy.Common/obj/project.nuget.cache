@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "VNcmjbroKQLztYdAQcJkiwxbO8bP0SCQ+0/bH6dk2BzSNL+gk+UnSm83zREUh1TV1zqyB7n62HYC+TbVuYfW+A==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common\\LogProxy.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.12\\microsoft.extensions.configuration.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.12\\microsoft.extensions.configuration.abstractions.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\3.1.12\\microsoft.extensions.configuration.environmentvariables.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.12\\microsoft.extensions.configuration.fileextensions.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.12\\microsoft.extensions.configuration.json.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.12\\microsoft.extensions.fileproviders.abstractions.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.12\\microsoft.extensions.fileproviders.physical.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.12\\microsoft.extensions.filesystemglobbing.3.1.12.nupkg.sha512",
+    "C:\\Users\\abeda\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.12\\microsoft.extensions.primitives.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

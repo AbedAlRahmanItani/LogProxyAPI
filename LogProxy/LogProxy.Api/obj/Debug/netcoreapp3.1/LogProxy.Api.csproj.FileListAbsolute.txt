@@ -92,3 +92,5 @@ D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.A
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\obj\Debug\netcoreapp3.1\LogProxy.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Common.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api\bin\Debug\netcoreapp3.1\LogProxy.Common.pdb

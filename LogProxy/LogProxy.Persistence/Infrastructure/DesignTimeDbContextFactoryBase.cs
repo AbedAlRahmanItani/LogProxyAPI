@@ -1,5 +1,5 @@
-﻿using LogProxy.Application.Constants;
-using LogProxy.Application.Extensions;
+﻿using LogProxy.Common.Constants;
+using LogProxy.Common.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 
-namespace LogProxy.Application.Extensions
+namespace LogProxy.Common.Extensions
 {
     public static class ConfigurationBuilderExtensions
     {

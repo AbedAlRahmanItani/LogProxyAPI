@@ -1,7 +1,6 @@
-using System;
 using System.IO;
-using LogProxy.Application.Constants;
-using LogProxy.Application.Extensions;
+using LogProxy.Common.Constants;
+using LogProxy.Common.Extensions;
 using LogProxy.Persistence.Context;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;

@@ -436,3 +436,5 @@ D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\apps
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\obj\Debug\netcoreapp3.1\LogProxy.Api.Tests.csproj.CoreCompileInputs.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\LogProxy.Common.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Api.Tests\bin\Debug\netcoreapp3.1\LogProxy.Common.pdb

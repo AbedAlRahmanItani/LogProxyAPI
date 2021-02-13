@@ -14,3 +14,5 @@ D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Application.pdb
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Persistence.pdb
 D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\obj\Debug\netcoreapp3.1\LogProxy.Infrastructure.csproj.CopyComplete
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Common.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Infrastructure\bin\Debug\netcoreapp3.1\LogProxy.Common.pdb

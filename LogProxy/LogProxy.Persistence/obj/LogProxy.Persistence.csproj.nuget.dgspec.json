@@ -4,14 +4,14 @@
     "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Persistence\\LogProxy.Persistence.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj": {
+    "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common\\LogProxy.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj",
-        "projectName": "LogProxy.Application",
-        "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common\\LogProxy.Common.csproj",
+        "projectName": "LogProxy.Common",
+        "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common\\LogProxy.Common.csproj",
         "packagesPath": "C:\\Users\\abeda\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\obj\\",
+        "outputPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,11 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj": {
-                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -42,17 +38,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "AutoMapper": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[10.1.1, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[9.5.0, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[3.1.12, )"
             },
             "Microsoft.Extensions.Configuration.EnvironmentVariables": {
               "target": "Package",
@@ -61,10 +49,6 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[3.1.12, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -167,8 +151,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj": {
-                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Application\\LogProxy.Application.csproj"
+              "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common\\LogProxy.Common.csproj": {
+                "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Common\\LogProxy.Common.csproj"
               },
               "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj": {
                 "projectPath": "D:\\Projects\\LogProxyAPI\\LogProxy\\LogProxy.Domain\\LogProxy.Domain.csproj"

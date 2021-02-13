@@ -1,4 +1,4 @@
-﻿namespace LogProxy.Application.Constants
+﻿namespace LogProxy.Common.Constants
 {
     public static class Roles
     {

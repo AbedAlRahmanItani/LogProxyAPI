@@ -1,0 +1,9 @@
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\bin\Debug\netcoreapp3.1\LogProxy.Common.deps.json
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\bin\Debug\netcoreapp3.1\LogProxy.Common.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\obj\Debug\netcoreapp3.1\LogProxy.Common.csprojAssemblyReference.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\obj\Debug\netcoreapp3.1\LogProxy.Common.AssemblyInfoInputs.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\obj\Debug\netcoreapp3.1\LogProxy.Common.AssemblyInfo.cs
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\bin\Debug\netcoreapp3.1\LogProxy.Common.pdb
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\obj\Debug\netcoreapp3.1\LogProxy.Common.csproj.CoreCompileInputs.cache
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\obj\Debug\netcoreapp3.1\LogProxy.Common.dll
+D:\Projects\LogProxyAPI\LogProxy\LogProxy.Common\obj\Debug\netcoreapp3.1\LogProxy.Common.pdb

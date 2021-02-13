@@ -1,4 +1,4 @@
-﻿using LogProxy.Application.Constants;
+﻿using LogProxy.Common.Constants;
 using LogProxy.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
